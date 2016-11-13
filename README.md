@@ -59,8 +59,11 @@ We're using the Ethereum Wallet https://www.ethereum.org/ for back and forth con
 Because we like Bitcoin, in fact we own some thousands of them, but have seen some concepts not to be totally democratic or safe for the pure health of the currency. We want a currency which stands for:
 
 a.- limited ownership, for value stability and security
+
 b.- open ownership, not to purely rely on minning
+
 c.- open decisions, based on what the community decides not a central bank
+
 
 License
 -------
