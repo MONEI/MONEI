@@ -9,8 +9,7 @@ contract MCoin is Ownable, TokenERC20 {
 
     uint256 public sellPrice;
     uint256 public buyPrice;
-    uint256 minBalanceForAccounts;
-
+    uint256 public minBalanceForAccounts;
     mapping(address => bool) public frozenAccount;
 
     /* This generates a public event on the blockchain that will notify clients */
@@ -24,29 +23,29 @@ contract MCoin is Ownable, TokenERC20 {
         uint256 tokenSellPrice,
         uint256 tokenBuyPrice,
         uint256 minBalance
-    ) TokenERC20(initialSupply, tokenName, tokenSymbol) public {
+    ) public TokenERC20(initialSupply, tokenName, tokenSymbol) {
+
         sellPrice = tokenSellPrice;
         buyPrice = tokenBuyPrice;
         minBalanceForAccounts = minBalance;
     }
 
-
-    function setMinBalance(uint minimumBalanceInFinney) onlyOwner public {
+    function setMinBalance(uint minimumBalanceInFinney) public onlyOwner {
         minBalanceForAccounts = minimumBalanceInFinney * 1 finney;
     }
 
     /* Send coins */
     function transfer(address _to, uint256 _value) public {
-        if (msg.sender.balance < minBalanceForAccounts) {
-            sell((minBalanceForAccounts - msg.sender.balance) / sellPrice);
-        }
         super.transfer(_to, _value);
+        if (msg.sender.balance < minBalanceForAccounts) {
+            sell((minBalanceForAccounts.sub(msg.sender.balance)) / sellPrice);
+        }
     }
 
     /// @notice Create `mintedAmount` tokens and send it to `target`
     /// @param target Address to receive the tokens
     /// @param mintedAmount the amount of tokens it will receive
-    function mintToken(address target, uint256 mintedAmount) onlyOwner public {
+    function mintToken(address target, uint256 mintedAmount) public onlyOwner {
         balanceOf[target] = balanceOf[target].add(mintedAmount);
         totalSupply = totalSupply.add(mintedAmount);
         Transfer(0, this, mintedAmount);
@@ -56,7 +55,7 @@ contract MCoin is Ownable, TokenERC20 {
     /// @notice `freeze? Prevent | Allow` `target` from sending & receiving tokens
     /// @param target Address to be frozen
     /// @param freeze either to freeze it or not
-    function freezeAccount(address target, bool freeze) onlyOwner public {
+    function freezeAccount(address target, bool freeze) public onlyOwner {
         frozenAccount[target] = freeze;
         FrozenFunds(target, freeze);
     }
@@ -64,13 +63,13 @@ contract MCoin is Ownable, TokenERC20 {
     /// @notice Allow users to buy tokens for `newBuyPrice` eth and sell tokens for `newSellPrice` eth
     /// @param newSellPrice Price the users can sell to the contract
     /// @param newBuyPrice Price users can buy from the contract
-    function setPrices(uint256 newSellPrice, uint256 newBuyPrice) onlyOwner public {
+    function setPrices(uint256 newSellPrice, uint256 newBuyPrice) public onlyOwner {
         sellPrice = newSellPrice;
         buyPrice = newBuyPrice;
     }
 
     /// @notice Buy tokens from contract by sending ether
-    function buy() payable public {
+    function buy() public payable {
         uint amount = msg.value / buyPrice;
         // calculates the amount
         _transfer(this, msg.sender, amount);
@@ -87,4 +86,8 @@ contract MCoin is Ownable, TokenERC20 {
         msg.sender.transfer(amount * sellPrice);
         // sends ether to the seller. It's important to do this last to avoid recursion attacks
     }
+
+    /// @notice Fallback function.
+    /// This function is executed whenever the contract receives plain Ether (without data)
+    function() public payable {}
 }

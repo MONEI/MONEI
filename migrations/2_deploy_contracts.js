@@ -1,4 +1,4 @@
-var MCoin = artifacts.require('./MCoin.sol');
+const MCoin = artifacts.require('./MCoin.sol');
 
 module.exports = function(deployer, network, accounts) {
   const initialSupply = 50000;
@@ -6,6 +6,14 @@ module.exports = function(deployer, network, accounts) {
   const tokenSymbol = 'UNI';
   const tokenSellPrice = 1;
   const tokenBuyPrice = 1;
-  const minBalance = web3.toWei(5, 'finney');
-  deployer.deploy(MCoin, initialSupply, tokenName, tokenSymbol, tokenSellPrice, tokenBuyPrice, minBalance);
+  const minBalance = 672197500000021000;
+  deployer.deploy(
+    MCoin,
+    initialSupply,
+    tokenName,
+    tokenSymbol,
+    tokenSellPrice,
+    tokenBuyPrice,
+    minBalance
+  );
 };
