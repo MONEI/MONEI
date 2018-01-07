@@ -1,0 +1,11 @@
+{
+  "name": "monei-uni",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Dmitriy Nevzorov",
+  "dependencies": {
+    "zeppelin-solidity": "^1.5.0"
+  },
+  "devDependencies": {}
+}
