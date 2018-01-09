@@ -4,6 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "author": "Dmitriy Nevzorov",
+  "scripts": {
+    "test": "truffle test"
+  },
   "dependencies": {
     "zeppelin-solidity": "^1.5.0"
   },
