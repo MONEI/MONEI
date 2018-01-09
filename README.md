@@ -5,7 +5,7 @@
 UNI
 =====================================
 
-An experimental Cryptocurrency with fiat parity, Ethereum powered initially, IOTA powered eventually
+MONEI's Cryptocurrency with fiat parity, Ethereum powered initially.
 
 ## Value
 We're working with UNIE as UNI (you and me) and E (Euro). We will add new parity coins like UNIU (Usd) or UNIG (Gbp) in the future.
@@ -26,8 +26,12 @@ Even it hasn't been fully decided yet, we're emiting 10.000 units of UNIE as of 
 Ethereum Smart Contracts based Blockchain has proved to be a really "safe" system to record Cryptocurrency transactions. We're auditing our Smart Contracts with external companies, and all of them will be made public. We're though, working to transfer all the process to be handled by IOTA because:
 
 Blockchain is slow
+
 Blockchain is expensive
+
 Ethereum has some flaws
+
+Why aren't we going straigth for IOTA then? Because we want to enter into the market fast and IOTA doesn't have yet Smart Contracts [(Oracles)](https://blog.iota.org/iota-development-roadmap-74741f37ed01).
 
 ## Wallet
 
