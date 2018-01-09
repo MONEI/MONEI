@@ -4,7 +4,7 @@ import './TokenERC20.sol';
 import 'zeppelin-solidity/contracts/ownership/Ownable.sol';
 import 'zeppelin-solidity/contracts/math/SafeMath.sol';
 
-contract MCoin is Ownable, TokenERC20 {
+contract MoneiToken is Ownable, TokenERC20 {
     using SafeMath for uint256;
 
     uint256 public sellPrice;
@@ -16,7 +16,7 @@ contract MCoin is Ownable, TokenERC20 {
     event FrozenFunds(address target, bool frozen);
 
     /* Initializes contract with initial supply tokens to the creator of the contract */
-    function MCoin(
+    function MoneiToken(
         uint256 initialSupply,
         string tokenName,
         string tokenSymbol,

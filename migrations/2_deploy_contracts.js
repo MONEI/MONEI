@@ -1,4 +1,4 @@
-const MCoin = artifacts.require('./MCoin.sol');
+const MoneiToken = artifacts.require('./MoneiToken.sol');
 
 module.exports = function(deployer, network, accounts) {
   const initialSupply = 50000;
@@ -8,7 +8,7 @@ module.exports = function(deployer, network, accounts) {
   const tokenBuyPrice = 1;
   const minBalance = 672197500000021000;
   deployer.deploy(
-    MCoin,
+    MoneiToken,
     initialSupply,
     tokenName,
     tokenSymbol,
