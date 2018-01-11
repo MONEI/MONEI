@@ -8,32 +8,33 @@ UNI
 MONEI's Cryptocurrency with fiat parity, Ethereum powered.
 
 ## Value
-More parity to fiat coins like USDÜ (Usd) or GBPÜ (Gbp) will be added in the future.
 
 | EUR        | VALUE           | CURRENCY TICKER | DECIMALS |
 | ------------- |:-------------:| -----:| -----:|
-| 1      | 1 | EURÜ | 8
+| 1      | 1 | EURⓂ | 8
+| 1      | 1 | USDⓂ | 8
+| 1      | 1 | GBPⓂ | 8
 
 
 ## Real use cases not supported by banks
 
 Send micropayments
 
-Create recurring transactions (send UNI's) every second or pre-defined time frames
+Create recurring transactions (send MONEI's) every second or pre-defined time frames
 
-Create transactions (send UNI's) based on events (fully flexible API to process payments)
+Create transactions (send MONEI's) based on events (fully flexible API to process payments)
 
 Send UNI's to shared wallets
 
 Send UNI's to email addresses, mobile phones or any device
 
-Create more UNI's based on the interest of users of converting their fiat into UNI
+Create more MONEI's based on the interest of users of converting their fiat into UNI
 
-Share part of the comissions (buy and sell UNI's) with the community by giving interest to the users holding the UNI's in the Smart Contract
+Share part of the comissions (buy and sell MONEI's) with the community by giving interest to the users holding the MONEI's in the Smart Contract
 
 ## Quantities to be issued
 
-We're emiting 10,000 units of EURÜ as of 1stQ 2018. These 10,000 EURÜ have its correspondent balance in our EUR account which is publicly readable, audited and only fully manipulable by the Smart Contract.
+We're emiting 10,000 units of EURⓂ as of 1stQ 2018. These 10,000 EURⓂ have its correspondent balance in our EUR account which is publicly readable, audited and only fully manipulable by the Smart Contract.
 
 ## Sending UNI's
 
@@ -49,7 +50,7 @@ Why aren't we going straigth for IOTA then? Because we want to enter into the ma
 
 ## Wallet
 
-We're using the Ethereum Wallet https://www.ethereum.org/ for back and forth contracts of UNI. Feel free, though, to build your own Wallet.
+We're using the Ethereum Wallet https://www.ethereum.org/ for back and forth contracts of MONEI. Feel free, though, to build your own Wallet.
 
 ## Why did we create UNI?
 
