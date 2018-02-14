@@ -2,7 +2,7 @@
 [![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/MONEI/UNI/master/LICENSE)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/MONEI/UNI/.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
 
-UNI
+MONEI token
 =====================================
 
 MONEI's Cryptocurrency with fiat parity, Ethereum powered.
@@ -24,9 +24,9 @@ Create recurring transactions (send MONEI's) every second or pre-defined time fr
 
 Create transactions (send MONEI's) based on events (fully flexible API to process payments)
 
-Send UNI's to shared wallets
+Send MONEI's to shared wallets
 
-Send UNI's to email addresses, mobile phones or any device
+Send MONEI's to email addresses, mobile phones or any device
 
 Create more MONEI's based on the interest of users of converting their fiat into UNI
 
@@ -36,7 +36,7 @@ Share part of the comissions (buy and sell MONEI's) with the community by giving
 
 We're emiting 10,000 units of EURⓂ as of 1stQ 2018. These 10,000 EURⓂ have its correspondent balance in our EUR account which is publicly readable, audited and only fully manipulable by the Smart Contract.
 
-## Sending UNI's
+## Sending MONEI's
 
 Ethereum Smart Contracts based Blockchain has proved to be a really "safe" system to record Cryptocurrency transactions. We're auditing our Smart Contracts with external companies whose name will be disclosed along with the publication of the audits. We're though, working to transfer all the process to be handled by IOTA because:
 
