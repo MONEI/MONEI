@@ -28,7 +28,7 @@ Send MONEI's to shared wallets
 
 Send MONEI's to email addresses, mobile phones or any device
 
-Create more MONEI's based on the interest of users of converting their fiat into UNI
+Create more MONEI's based on the interest of users of converting their fiat into MONEI's
 
 Share part of the comissions (buy and sell MONEI's) with the community by giving interest to the users holding the MONEI's in the Smart Contract
 
@@ -52,7 +52,7 @@ Why aren't we going straigth for IOTA then? Because we want to enter into the ma
 
 We're using the Ethereum Wallet https://www.ethereum.org/ for back and forth contracts of MONEI. Feel free, though, to build your own Wallet.
 
-## Why did we create UNI?
+## Why did we create the MONEI token?
 
 Because we like Bitcoin, but we see a real lack of crypto to fiat liquidity. We've been in the ecommerce world with [Shopify](https://shopify.com) and [Shopify Payments](https://monei.net) for more than 10 years already and we believe there should be alternatives to Bitcoin which really make the difference for Blockchain - IOTA powered financial transactions.
 
@@ -64,4 +64,4 @@ Not really, not now at least. We focus on our service and on building something 
 License
 -------
 
-UNI is released under the terms of the GNU license.
+MONEI token is released under the terms of the GNU license.
