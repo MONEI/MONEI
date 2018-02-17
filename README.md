@@ -20,6 +20,8 @@ MONEI's Cryptocurrency with fiat parity, Ethereum powered.
 
 Send micropayments
 
+Send payments in dates when traditional banking doesn't support activity (weekends, new year...)
+
 Create recurring transactions (send MONEI's) every second or pre-defined time frames
 
 Create transactions (send MONEI's) based on events (fully flexible API to process payments)
@@ -35,18 +37,11 @@ Share part of the comissions (buy and sell MONEI's) with the community by giving
 ## Quantities to be issued
 
 We're emiting 10,000 units of EURⓂ as of 1stQ 2018. These 10,000 EURⓂ have its correspondent balance in our EUR account which is publicly readable, audited and only fully manipulable by the Smart Contract.
+** UPDATE ** Interest for this project might make the previously mentioned amount be much higher.
 
 ## Sending MONEI's
 
-Ethereum Smart Contracts based Blockchain has proved to be a really "safe" system to record Cryptocurrency transactions. We're auditing our Smart Contracts with external companies whose name will be disclosed along with the publication of the audits. We're though, working to transfer all the process to be handled by IOTA because:
-
-Blockchain is slow
-
-Blockchain is expensive
-
-Ethereum has some flaws
-
-Why aren't we going straigth for IOTA then? Because we want to enter into the market fast and IOTA doesn't have yet Smart Contracts [(Oracles)](https://blog.iota.org/iota-development-roadmap-74741f37ed01).
+Ethereum Smart Contracts based Blockchain has proved to be a really "safe" system to record Cryptocurrency transactions. We're auditing our Smart Contracts with external companies whose name will be disclosed along with the publication of the audits. 
 
 ## Wallet
 
@@ -58,7 +53,7 @@ Because we like Bitcoin, but we see a real lack of crypto to fiat liquidity. We'
 
 ## Are you planning to do an ICO?
 
-Not really, not now at least. We focus on our service and on building something which solves real problems rather than sending email marketing campaigns and doing banners in CoinMarketCap cheating people promising unreal future gains.
+Not really, not now at least. We focus on our service and on building something which solves real problems.
 
 
 License
