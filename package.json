@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "author": "Dmitriy Nevzorov",
+  "author": "MONEI DIGITAL PAYMENTS SL",
   "scripts": {
     "test": "truffle test"
   },
